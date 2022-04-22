@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
 }
+
+
 body{
     background-image: url(../images/one-piece\ android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-b92wd-1920x1080.jpg);
 }
@@ -29,8 +32,47 @@ body{
     color: #fff;
 }
 h1{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    color: red;
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration-color: #1e00b5;
 }
+
+h2 {
+    color: darkblack;
+    font-size: 3rem;
+    font-weight: 20;
+}
+
+.image {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+p {
+    font-size: 2rem;
+    color: #fff;
+    line-height: 3rem;
+    margin-bottom: 5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 2.7rem 7.5rem;
+    background: #f6f6f6;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #398f51;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #dadada;
+}
+
 .container p{
     margin-bottom: 40px;
 }
@@ -90,7 +132,7 @@ button{
 }
 
 
-header{
+/* header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/one-piece\ android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-b92wd-1920x1080.jpg);
     height: 100vh;
     background-size: cover;
@@ -101,7 +143,7 @@ background-image:url(../images/one-piece\ android-iphone-desktop-hd-backgrounds-
     background-position: center;
     background-size: cover;
     position: relative;
-}
+} */
 ul{
     float: right;
     list-style-type: none;
@@ -179,5 +221,4 @@ ul li a:hover{
         transform: translate(0);
     }
 }
-
 
