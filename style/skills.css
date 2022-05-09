@@ -82,7 +82,7 @@ html,body{
     content:"90%";
 }
 
-.progress-line.c# span::after{
+.progress-line.php span::after{
     content:"40%";
 }
 

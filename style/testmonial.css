@@ -6,8 +6,8 @@
 #testimonials{
     display: flex;
     flex-direction: column; 
-    min-height: 100vh;
-    max-width: 100vw;
+    min-height: 80vh;
+    max-width: 80vw;
     background-color: rgb(255, 255, 255);
 }
 #testimonials h1 {
@@ -18,8 +18,8 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    min-height: 70%;
-    min-width: 95%;
+    min-height: 10%;
+    min-width: 15%;
     
 }
 .testimonialblocks {
@@ -28,7 +28,7 @@
     flex-direction: column;
     border: 2px solid rgb(0, 0, 0);
     padding: 2% 0.5%;
-    min-height: 70%;
+    min-height: 50%;
     background-color: aliceblue;
     max-width: 30%;
     line-height: 1.8;

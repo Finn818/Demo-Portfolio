@@ -41,7 +41,7 @@ h1{
 }
 
 h2 {
-    color: darkblack;
+    color: black;
     font-size: 3rem;
     font-weight: 20;
 }
@@ -53,7 +53,7 @@ h2 {
 
 p {
     font-size: 2rem;
-    color: #fff;
+    color: black;
     line-height: 3rem;
     margin-bottom: 5rem;
 }
